@@ -19,3 +19,8 @@ function longestWord(str) {
     // Return the longest word found
     return longest;
 }
+
+// Example usage
+const sentence = "The quick brown fox jumps over the lazy dog"; 
+const longest = longestWord(sentence);
+console.log(`The longest word in the sentence is: ${longest}`); // Output: "jumps"
